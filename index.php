@@ -13,7 +13,7 @@ $Tanggal = date("D, d M Y");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web portofolio- <?= $Nama ?></title>
-    <link rel="icon" href="aset/favicon.ico">
+    <link rel="icon" href="favicon.ico">
 
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -64,5 +64,6 @@ $Tanggal = date("D, d M Y");
 </body>
 
 </html>
+
 
 
