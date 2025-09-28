@@ -22,14 +22,14 @@ $Tanggal = date("D, d M Y");
 <body class="bg-gray-100 text-gray-800">
     <div class="max-w-7xl mx-auto mt-10 p-6 bg-white rounded-2xl shadow-lg">
 
-        <!-- Foto -->
+       
         <div class="flex flex-col items-center">
             <img src="profile.jpg" alt="Foto Profil"
                 class="w-32 h-32 rounded-full border-4 border-blue-500 object-cover mb-4">
             <h1 class="text-2xl font-bold"><?= $Nama ?></h1>
         </div>
 
-        <!-- Data -->
+        
         <table class="table-auto w-full my-6 border">
             <tr class="border">
                 <th class="px-4 py-2 text-left">NIM</th>
@@ -45,7 +45,7 @@ $Tanggal = date("D, d M Y");
             </tr>
         </table>
 
-        <!-- Sosial Media -->
+    
         <div class="flex justify-center gap-10 my-6">
             <a href="https://github.com/lutfiahnurul" target="_blank" class="text-gray-600 hover:text-black">
                 <img src="github_logo.jpg" alt="Github" class="w-10 h-10 mx-auto"><br>Github
@@ -58,12 +58,13 @@ $Tanggal = date("D, d M Y");
             </a>
         </div>
 
-        <!-- Tanggal -->
+
         <p class="text-right text-sm text-gray-500"><?= $Tanggal ?></p>
     </div>
 </body>
 
 </html>
+
 
 
 
